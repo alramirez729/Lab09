@@ -54,7 +54,7 @@ public class LinkedListReversal
         ListNode newHead = reverser.reverseLinkedList(head);
 
         // The linked list will be reversed in groups of 3: 3 -> 2 -> 1 -> 6 -> 5 -> 4 -> 7 -> 8
-        System.out.println("Original Node List:");
+        System.out.println("Reversed Node List:");
         printLinkedList(newHead);
     }
 }
